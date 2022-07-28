@@ -1,0 +1,11 @@
+file_format: "1"
+id: niniergo_split
+name: niniergo_split
+type: shield
+url: https://github.com/Rimmy50/zmk-config
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - niniergo_split_left
+  - niniergo_split_right

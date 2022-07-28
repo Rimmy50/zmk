@@ -1,0 +1,19 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_NINIERGO_SPLIT_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Niniergo Split"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_NINIERGO_SPLIT_LEFT || SHIELD_NINIERGO_SPLIT_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
