@@ -1,0 +1,404 @@
+The target system is: Generic - 3.0.0 - arm
+The host system is: Darwin - 21.4.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/3.24.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/3.24.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc (Arm GNU Toolchain 11.3.Rel1) 11.3.1 20220712
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_42a4e && [1/2] Building C object CMakeFiles/cmTC_42a4e.dir/src.c.obj
+[2/2] Linking C executable cmTC_42a4e
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0_ succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_72c25 && [1/2] Building C object CMakeFiles/cmTC_72c25.dir/src.c.obj
+[2/2] Linking C executable cmTC_72c25
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpointer_sign_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_768db && [1/2] Building C object CMakeFiles/cmTC_768db.dir/src.c.obj
+[2/2] Linking C executable cmTC_768db
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpointer_arith_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_918c3 && [1/2] Building C object CMakeFiles/cmTC_918c3.dir/src.c.obj
+[2/2] Linking C executable cmTC_918c3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_3db87 && [1/2] Building C object CMakeFiles/cmTC_3db87.dir/src.c.obj
+[2/2] Linking C executable cmTC_3db87
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wlogical_op_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_cd891 && [1/2] Building C object CMakeFiles/cmTC_cd891.dir/src.c.obj
+[2/2] Linking C executable cmTC_cd891
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_4a12d && [1/2] Building C object CMakeFiles/cmTC_4a12d.dir/src.c.obj
+[2/2] Linking C executable cmTC_4a12d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_9e0fa && [1/2] Building C object CMakeFiles/cmTC_9e0fa.dir/src.c.obj
+[2/2] Linking C executable cmTC_9e0fa
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wvla_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_889e5 && [1/2] Building C object CMakeFiles/cmTC_889e5.dir/src.c.obj
+[2/2] Linking C executable cmTC_889e5
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_054f3 && [1/2] Building C object CMakeFiles/cmTC_054f3.dir/src.c.obj
+[2/2] Linking C executable cmTC_054f3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Werror_implicit_int_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_7fac5 && [1/2] Building C object CMakeFiles/cmTC_7fac5.dir/src.c.obj
+[2/2] Linking C executable cmTC_7fac5
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_freestanding_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_8d19b && [1/2] Building C object CMakeFiles/cmTC_8d19b.dir/src.c.obj
+[2/2] Linking C executable cmTC_8d19b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_gdwarf_4_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_adad8 && [1/2] Building C object CMakeFiles/cmTC_adad8.dir/src.c.obj
+[2/2] Linking C executable cmTC_adad8
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___print_memory_usage succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_07e66 && [1/2] Building C object CMakeFiles/cmTC_07e66.dir/src.c.obj
+[2/2] Linking C executable cmTC_07e66
+Memory region         Used Size  Region Size  %age Used
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fsanitize_address succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_b987e && [1/2] Building C object CMakeFiles/cmTC_b987e.dir/src.c.obj
+[2/2] Linking C executable cmTC_b987e
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fsanitize_undefined succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_2dd57 && [1/2] Building C object CMakeFiles/cmTC_2dd57.dir/src.c.obj
+[2/2] Linking C executable cmTC_2dd57
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__no_pie succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_eb134 && [1/2] Building C object CMakeFiles/cmTC_eb134.dir/src.c.obj
+[2/2] Linking C executable cmTC_eb134
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mcpu_cortex_m4 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_831d9 && [1/2] Building C object CMakeFiles/cmTC_831d9.dir/src.c.obj
+[2/2] Linking C executable cmTC_831d9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mthumb succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_1285b && [1/2] Building C object CMakeFiles/cmTC_1285b.dir/src.c.obj
+[2/2] Linking C executable cmTC_1285b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mabi_aapcs succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_0fe51 && [1/2] Building C object CMakeFiles/cmTC_0fe51.dir/src.c.obj
+[2/2] Linking C executable cmTC_0fe51
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mfp16_format_ieee succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_baaee && [1/2] Building C object CMakeFiles/cmTC_baaee.dir/src.c.obj
+[2/2] Linking C executable cmTC_baaee
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___gc_sections succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_fee7f && [1/2] Building C object CMakeFiles/cmTC_fee7f.dir/src.c.obj
+[2/2] Linking C executable cmTC_fee7f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___build_id_none succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_12148 && [1/2] Building C object CMakeFiles/cmTC_12148.dir/src.c.obj
+[2/2] Linking C executable cmTC_12148
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___sort_common_descending succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_8a7b0 && [1/2] Building C object CMakeFiles/cmTC_8a7b0.dir/src.c.obj
+[2/2] Linking C executable cmTC_8a7b0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___sort_section_alignment succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_8ddf8 && [1/2] Building C object CMakeFiles/cmTC_8ddf8.dir/src.c.obj
+[2/2] Linking C executable cmTC_8ddf8
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__nostdlib succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_2049b && [1/2] Building C object CMakeFiles/cmTC_2049b.dir/src.c.obj
+[2/2] Linking C executable cmTC_2049b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__static succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_75f9f && [1/2] Building C object CMakeFiles/cmTC_75f9f.dir/src.c.obj
+[2/2] Linking C executable cmTC_75f9f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl__X succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_f9ff4 && [1/2] Building C object CMakeFiles/cmTC_f9ff4.dir/src.c.obj
+[2/2] Linking C executable cmTC_f9ff4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl__N succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_413d3 && [1/2] Building C object CMakeFiles/cmTC_413d3.dir/src.c.obj
+[2/2] Linking C executable cmTC_413d3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___orphan_handling_warn succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_6eca3 && [1/2] Building C object CMakeFiles/cmTC_6eca3.dir/src.c.obj
+[2/2] Linking C executable cmTC_6eca3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_e01c0 && [1/2] Building C object CMakeFiles/cmTC_e01c0.dir/src.c.obj
+[2/2] Linking C executable cmTC_e01c0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_pie_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_71cb9 && [1/2] Building C object CMakeFiles/cmTC_71cb9.dir/src.c.obj
+[2/2] Linking C executable cmTC_71cb9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_pic_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_e0281 && [1/2] Building C object CMakeFiles/cmTC_e0281.dir/src.c.obj
+[2/2] Linking C executable cmTC_e0281
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_reorder_functions_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_d5500 && [1/2] Building C object CMakeFiles/cmTC_d5500.dir/src.c.obj
+[2/2] Linking C executable cmTC_d5500
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_defer_pop_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_a9c61 && [1/2] Building C object CMakeFiles/cmTC_a9c61.dir/src.c.obj
+[2/2] Linking C executable cmTC_a9c61
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map__Users_nsaroiu_projects_keebs_zmk_app_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_cf152 && [1/2] Building C object CMakeFiles/cmTC_cf152.dir/src.c.obj
+[2/2] Linking C executable cmTC_cf152
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map__Users_nsaroiu_projects_keebs_zmk_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_d3539 && [1/2] Building C object CMakeFiles/cmTC_d3539.dir/src.c.obj
+[2/2] Linking C executable cmTC_d3539
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map__Users_nsaroiu_projects_keebs_zmk_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_819af && [1/2] Building C object CMakeFiles/cmTC_819af.dir/src.c.obj
+[2/2] Linking C executable cmTC_819af
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ffunction_sections_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_d509a && [1/2] Building C object CMakeFiles/cmTC_d509a.dir/src.c.obj
+[2/2] Linking C executable cmTC_d509a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fdata_sections_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_8b891 && [1/2] Building C object CMakeFiles/cmTC_8b891.dir/src.c.obj
+[2/2] Linking C executable cmTC_8b891
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wfatal_errors_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_e6aef && [1/2] Building C object CMakeFiles/cmTC_e6aef.dir/src.c.obj
+[2/2] Linking C executable cmTC_e6aef
+
+
+Source file was:
+int main(void) { return 0; }

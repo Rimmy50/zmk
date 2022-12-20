@@ -1,0 +1,70 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+/Volumes/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/stdlib/exit.c:65: undefined reference to `_exit'
+/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+/Volumes/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/reent/closer.c:47: undefined reference to `_close'
+/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+/Volumes/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/reent/lseekr.c:49: undefined reference to `_lseek'
+/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+/Volumes/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/reent/readr.c:49: undefined reference to `_read'
+/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+/Volumes/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/reent/sbrkr.c:51: undefined reference to `_sbrk'
+/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+/Volumes/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/reent/writer.c:49: undefined reference to `_write'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+/Volumes/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/stdlib/exit.c:65: undefined reference to `_exit'
+/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+/Volumes/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/reent/closer.c:47: undefined reference to `_close'
+/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+/Volumes/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/reent/lseekr.c:49: undefined reference to `_lseek'
+/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+/Volumes/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/reent/readr.c:49: undefined reference to `_read'
+/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+/Volumes/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/reent/sbrkr.c:51: undefined reference to `_sbrk'
+/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+/Volumes/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/reent/writer.c:49: undefined reference to `_write'
+collect2: error: ld returned 1 exit status
+
+
+Performing C SOURCE FILE Test check_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 failed with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_d8274 && [1/2] Building C object CMakeFiles/cmTC_d8274.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_d8274.dir/src.c.obj 
+/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc -Dcheck_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/include" -isystem "/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -mstack-protector-guard=global -o CMakeFiles/cmTC_d8274.dir/src.c.obj -c /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp/src.c
+arm-none-eabi-gcc: error: unrecognized command-line option '-mstack-protector-guard=global'; did you mean '-fstack-protector-all'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include___isystem___Applications_ArmGNUToolchain_11_3_rel1_arm_none_eabi_bin____lib_gcc_arm_none_eabi_11_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__lasan failed with the following output:
+Change Dir: /Users/nsaroiu/projects/keebs/zmk/app/build/niniergo_left/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_d301b && [1/2] Building C object CMakeFiles/cmTC_d301b.dir/src.c.obj
+[2/2] Linking C executable cmTC_d301b
+FAILED: cmTC_d301b 
+: && /Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc -nostartfiles -nostdlib -isystem "/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/include" -isystem "/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -lasan  CMakeFiles/cmTC_d301b.dir/src.c.obj -o cmTC_d301b   && :
+/Applications/ArmGNUToolchain/11.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: cannot find -lasan: No such file or directory
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
